@@ -1,9 +1,7 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import { createStore } from 'vuex';
 
-Vue.use(Vuex);
 
-export default new Vuex.Store({
+const store = createStore({
   state: {
     todos: [
         "demo todo"
@@ -26,3 +24,5 @@ export default new Vuex.Store({
     },
   }
 });
+
+export default store;

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1><center>To-Do App</center></h1>
+    <h1 style="text-align: center;">To-Do App</h1>
     <hr />
     <AddTodo />
     <hr />
