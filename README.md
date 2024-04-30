@@ -1,25 +1,35 @@
-# vue2 to vue3 migration demo
+# .
 
-## Project setup
-```
-pnpm install
-```
+This template should help get you started developing with Vue 3 in Vite.
 
-### Compiles and hot-reloads for development
-```
-pnpm run serve
-```
+## Recommended IDE Setup
 
-### Compiles and minifies for production
-```
-pnpm run build
-```
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-### Lints and fixes files
-```
-pnpm run lint
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
 ```
 
-### Customize configuration
-- Vue 2 setup is with main branch
-- Vue 3 setup is with vue3 branch
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```

@@ -13,5 +13,8 @@ export default defineConfig({
       '@': path.resolve(pathSegments, './src'),
     },
     extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json'],
+  },
+  server: {
+    port: 8080
   }
 })
